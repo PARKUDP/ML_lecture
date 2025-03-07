@@ -1,1 +1,1 @@
-# ML_lecture
+# Python機会学習（教材）
