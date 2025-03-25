@@ -1,7 +1,12 @@
-from 第1回.problems.problem_2 import is_even
+import unittest
+from problems import problem_2
 
-def test_is_even():
-    assert is_even(2) == True
-    assert is_even(5) == False
-    assert is_even(10) == True
-    assert is_even(7) == False
+class TestProblem2(unittest.TestCase):
+    def test_solve(self):
+        answer = problem_2.solve()
+        # 文字列に "経験" と "データ" が含まれていればOKとする
+        self.assertIn("経験", answer)
+        self.assertIn("データ", answer)
+
+if __name__ == '__main__':
+    unittest.main()

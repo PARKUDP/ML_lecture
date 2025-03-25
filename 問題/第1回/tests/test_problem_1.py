@@ -1,7 +1,12 @@
-from 第1回.problems.problem_1 import calculate_average
+import unittest
+from problems import problem_1
 
-def test_calculate_average():
-    assert calculate_average([1, 2, 3, 4, 5]) == 3.0
-    assert calculate_average([10, 20, 30, 40, 50]) == 30.0
-    assert calculate_average([-5, 5, 10, 0]) == 2.5
-    assert calculate_average([0, 0, 0, 0, 0]) == 0.0
+class TestProblem1(unittest.TestCase):
+    def test_solve(self):
+        answer = problem_1.solve()
+        # テスト例：回答の中に「データを見て」「ルールを学ぶ」などのキーワードが含まれるか簡易チェック
+        self.assertIn("データ", answer)
+        self.assertIn("ルール", answer)
+
+if __name__ == '__main__':
+    unittest.main()
