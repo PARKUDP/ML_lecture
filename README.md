@@ -1,107 +1,371 @@
-# Python機会学習（教材）
-## 教材の構成
-### **第1回 – 機械学習とは？**
+# 🇯🇵 日本語版
+# 📘 Python機械学習（教材）
+## 🔖 教材の構成
+## 📚 目次
+- [🟦 第1回 – 機械学習とは？](#第1回--機械学習とは)
+- [🟩 第2回 – 分類学習（1）：分類とは？](#第2回--分類学習1分類とは)
+- [🟨 第3回 – 分類学習（2）：精度と改善](#第3回--分類学習2精度と改善)
+- [🟧 第4回 – 回帰学習（1）：予測って何？](#第4回--回帰学習1予測って何)
+- [🟥 第5回 – 回帰学習（2）：精度と応用](#第5回--回帰学習2精度と応用)
+- [🟪 第6回 – 強化学習（1）：試して覚える](#第6回--強化学習1試して覚える)
+- [🟫 第7回 – 強化学習（2）：上達するAI](#第7回--強化学習2上達するai)
+- [🔁 第8回 – 振り返りとまとめ](#第8回--振り返りとまとめ)
+- [🎓 最終回 – 作品づくり：自分のAIをつくろう！](#最終回--作品づくり自分のaiをつくろう)
+- [✅ 備考](#-備考)
+- [📁 ファイル構成](#-ファイル構成)
+
+### 🟦 第1回 – 機械学習とは？
 **目的：機械学習の全体像を知る**
 - 機械学習ってなに？どんなことができるの？
 - 人とコンピュータの違い、なぜ学習が必要？
-- 機械学習の３つのタイプ
-  - 分類（分類とは何か、日常の例）
-  - 回帰（予測するとはどういうことか）
-  - 強化学習（ゲームやロボットと学習）
+- 機械学習の３つのタイプ  
+  └ 分類（分類とは何か、日常の例）  
+  └ 回帰（予測するとはどういうことか）  
+  └ 強化学習（ゲームやロボットと学習）
 - 実例紹介（画像認識、音声認識、推薦システムなど）
-- ミニワーク：
-  - 絵カードを使った「これは何の動物？」ゲーム
-  - 「AIはこんなことができるよ」動画視聴と感想共有
-- プログラミング：
-  - Pythonで簡単な画像分類デモ（事前学習済モデル使用）
-- 演習問題
 
-### **第2回 – 分類学習（1）：「分類」とは？**
+**アクティビティ**
+- 絵カードを使った「これは何の動物？」ゲーム
+- 「AIはこんなことができるよ」動画視聴と感想共有
+
+**プログラミング**
+- Pythonで簡単な画像分類デモ（事前学習済モデル使用）
+
+**演習問題あり**
+
+---
+
+### 🟩 第2回 – 分類学習（1）：分類とは？
 **目的：分類の考え方と基礎的な流れを学ぶ**
-- 「分類」ってどういう意味？
-- 特徴量（色、形、大きさ）ってなに？
-- データセットとは？（例：あやめの花、犬と猫）
-- 学習とテストに分けるってどういうこと？
-- ミニワーク：
-  - お菓子分けゲーム（ルール発見の体験）
-  - 紙カードを分類してみよう
-- プログラミング：
-  - Pandasとscikit-learnを使って分類モデルを作る（Irisデータセット）
-- 演習問題
+- 特徴量（色、形、大きさ）とは？
+- データセットの概念（あやめの花、犬と猫）
+- 学習とテストに分ける理由
 
-### **第3回 – 分類学習（2）：精度と改善**
-**目的：分類モデルの精度とその向上方法を学ぶ**
-- モデルの「正解率」ってどう測るの？
-- 混同行列とは？
-- モデルが間違える理由とは？
-- 精度を上げる方法（特徴量の工夫、データの増加）
-- ミニワーク：
-  - みんなで手書き数字を描いて分類ゲーム
-- プログラミング：
-  - MNISTを使った手書き数字分類
-- 演習問題
+**アクティビティ**
+- お菓子分けゲーム
+- 紙カードを使って分類
 
-### **第4回 – 回帰学習（1）：予測って何？**
-**目的：数値の予測とその仕組みを理解する**
-- 「回帰」ってなに？（予測との違い）
-- 線形回帰モデルのしくみ
-- 因果関係と相関関係
-- ミニワーク：
-  - 身長と靴のサイズの関係を予測
-  - 線を引いて未来を予測してみよう
-- プログラミング：
-  - 気温とアイスの売上データで予測モデル作成
-- 演習問題
+**プログラミング**
+- Irisデータセットでの分類モデル（Pandas + scikit-learn）
 
-### **第5回 – 回帰学習（2）：予測の精度と応用**
-**目的：予測の質を高め、他のアルゴリズムも知る**
-- 予測が外れる理由（外れ値、データ不足）
-- 多変量回帰とは？
-- 決定木回帰など他の手法紹介
-- ミニワーク：
-  - サイコロの平均を当てようゲーム
-  - 異常値を見つけるクイズ
-- プログラミング：
-  - 複数の特徴を使って回帰（例：面積・部屋数 → 家賃）
-- 演習問題
+**演習問題あり**
 
-### **第6回 – 強化学習（1）：試して覚える！**
-**目的：試行錯誤型の学習を理解する**
-- 強化学習ってなに？（行動と報酬の関係）
-- 迷路を通ってゴールに行くロジック
-- エージェント・環境・報酬の関係
-- ミニワーク：
-  - 紙の迷路ゲーム（選択による結果変化を学ぶ）
-- プログラミング：
-  - OpenAI Gymで迷路シミュレーション
-- 演習問題
+---
 
-### **第7回 – 強化学習（2）：繰り返し学習で上達！**
-**目的：強化学習の継続的な学びと実践**
-- 試行回数と成長（学習曲線）
-- ε-greedy法、Q学習の簡単な紹介
-- ロボットや自動運転との関連
-- ミニワーク：
-  - ルールを変えた迷路で再挑戦
-- プログラミング：
-  - Q-learningの基本（迷路で学習させてみよう）
-- 演習問題
+### 🟨 第3回 – 分類学習（2）：精度と改善
+**目的：分類モデルの精度と改善を学ぶ**
+- 正解率と混同行列の理解
+- モデルが間違える理由と改善方法（特徴量／データ量）
 
-### **第8回 – 振り返りとまとめ**
-**目的：理解を整理し、知識をつなげる**
-- 今まで学んだ3タイプの違いと共通点
-- 機械学習をどう活かせる？
-- ミニワーク：
-  - 「AIで何をしたい？」アイデア発表
-- 演習問題
+**アクティビティ**
+- 手書き数字を描いて分類ゲーム
 
-### **そのほか – 作品づくり：自分のAIをつくろう！**
-**目的：学んだことを活かし、自分のアイデアを形にする**
-- 自由課題例：
-  - フルーツ分類アプリ
-  - 回帰で自分の勉強時間と成績の関係予測
-  - 強化学習でキャラクターを動かすゲーム
-- 発表会：
-  - 作品紹介＋振り返り
+**プログラミング**
+- MNISTを使った手書き数字分類（深層学習導入前）
+
+**演習問題あり**
+
+---
+
+### 🟧 第4回 – 回帰学習（1）：予測って何？
+**目的：回帰の概念と線形予測を理解する**
+- 回帰と分類の違い
+- 線形回帰と「未来を当てる」考え方
+
+**アクティビティ**
+- 身長と靴のサイズから予測
+- 線を引いて未来を予測しよう
+
+**プログラミング**
+- アイス売上 × 気温の線形回帰モデル作成
+
+**演習問題あり**
+
+---
+
+### 🟥 第5回 – 回帰学習（2）：精度と応用
+**目的：精度向上の方法と他の手法の紹介**
+- 外れ値、多変量回帰、決定木回帰など
+
+**アクティビティ**
+- サイコロの目の平均を考えよう
+- 異常値を見つけるクイズ
+
+**プログラミング**
+- 面積・部屋数 → 家賃の予測（多変量回帰）
+
+**演習問題あり**
+
+---
+
+### 🟪 第6回 – 強化学習（1）：試して覚える
+**目的：試行錯誤型学習の仕組みを知る**
+- エージェント／環境／報酬
+- ゴールへ向かう行動の最適化
+
+**アクティビティ**
+- 紙の迷路ゲーム（失敗から学ぶ）
+
+**プログラミング**
+- OpenAI Gym で迷路シミュレーション
+
+**演習問題あり**
+
+---
+
+### 🟫 第7回 – 強化学習（2）：上達するAI
+**目的：繰り返し学習とQ学習の入門**
+- ε-greedy法・Q学習の基本
+- 実社会での応用（ロボット、自動運転）
+
+**アクティビティ**
+- 条件の違う迷路で再挑戦
+
+**プログラミング**
+- 迷路でQ-learningを体験
+
+**演習問題あり**
+
+---
+
+### 🔁 第8回 – 振り返りとまとめ
+**目的：これまでの学びをつなげる**
+- 分類／回帰／強化学習の違いと活用法
+- AIを使ってできること・できないことを考える
+
+**アクティビティ**
+- 「AIで何をしたい？」ワークと発表
+
+**演習問題あり**
+
+---
+
+### 🎓 最終回 – 作品づくり：自分のAIをつくろう！
+**目的：学んだ技術を応用し、自分の作品を作る**
+
+**自由課題例**
+- フルーツ分類アプリ
+- 自分の勉強時間から成績を予測するアプリ
+- 強化学習でキャラクターを動かすゲーム
+
+**発表会**
+- 各自またはチームで成果発表＋フィードバック
+
+---
+
+## ✅ 備考
+- 各回の教材は `.ipynb`（Jupyter Notebook）形式で提供
+- Pythonによる実装中心、図解と体験を重視
+- 対象：小学生（高学年）〜高校生
 
 
+## 📁 ファイル構成
+```
+ML_lecture/
+├── README.md                 # 教材の概要と構成（このファイル）
+├── materials/                # 各回のJupyter Notebook教材（.ipynb形式）
+│   ├── lesson_one.ipynb
+│   ├── lesson_two.ipynb
+│   └── ...（第8回＋作品制作）
+├── problem/                  # 各回のPython演習問題とテストコード
+│   ├── lesson_one/
+│   │   ├── problems/         # 実装課題ファイル（problem_1.py ~ problem_15.py）
+│   │   └── tests/            # 各課題に対するテストコード
+│   ├── lesson_two/
+│   │   └── ...
+│   ├── ...（lesson_three ~ lesson_eight）
+│   ├── other/                # 自由課題・作品制作用問題とテスト
+│   └── run.py                # テスト一括実行などの補助スクリプト
+```
+- `materials/` ディレクトリには、各回の学習内容を記述したJupyter Notebookがあります。1つのノートブックで理論解説＋コード実演＋演習があります。
+- `problem/` ディレクトリには、各レッスンに対応するPython演習課題と、それに対応する自動テストコードがあります。
+- `run.py` は補助的なスクリプトで、テストの一括実行などに使用します。
+
+---
+# 🇺🇸 English Version
+# 📘 Python Machine Learning (Educational Materials)
+
+## 🔖 Lesson Structure
+## 📚 Table of Contents
+- [🟦 Lesson 1 – What is Machine Learning?](#lesson-1--what-is-machine-learning)
+- [🟩 Lesson 2 – Classification (1): What is classification?](#lesson-2--classification-1-what-is-classification)
+- [🟨 Lesson 3 – Classification (2): Accuracy and improvement](#lesson-3--classification-2-accuracy-and-improvement)
+- [🟧 Lesson 4 – Regression (1): What is prediction?](#lesson-4--regression-1-what-is-prediction)
+- [🟥 Lesson 5 – Regression (2): Accuracy and applications](#lesson-5--regression-2-accuracy-and-applications)
+- [🟪 Lesson 6 – Reinforcement Learning (1): Learn through trial and error](#lesson-6--reinforcement-learning-1-learn-through-trial-and-error)
+- [🟫 Lesson 7 – Reinforcement Learning (2): Learn by repeating](#lesson-7--reinforcement-learning-2-learn-by-repeating)
+- [🔁 Lesson 8 – Review and Reflection](#lesson-8--review-and-reflection)
+- [🎓 Final Lesson – Create Your Own AI Project!](#final-lesson--create-your-own-ai-project)
+- [✅ Notes](#-notes)
+- [📁 Directory Structure](#-directory-structure)
+
+### 🟦 Lesson 1 – What is Machine Learning?
+**Objective: Understand the overall concept of machine learning**
+- What is machine learning? What can it do?
+- Differences between humans and computers, and why learning is necessary
+- Three types of machine learning  
+  └ Classification (what is classification, everyday examples)  
+  └ Regression (what does it mean to make predictions?)  
+  └ Reinforcement Learning (learning through games or robotics)
+- Real-world examples (image recognition, speech recognition, recommendation systems)
+
+**Activities**
+- “What animal is this?” game using picture cards  
+- Watch videos showing “What AI can do” and share reflections
+
+**Programming**
+- Simple image classification demo using a pre-trained Python model
+
+**Includes practice problems**
+
+---
+
+### 🟩 Lesson 2 – Classification (1): What is classification?
+**Objective: Learn the concept of classification and its basic process**
+- What are features? (color, shape, size)
+- What is a dataset? (e.g., iris flowers, dogs and cats)
+- Why do we split data into training and testing?
+
+**Activities**
+- Candy sorting game  
+- Classification using paper cards
+
+**Programming**
+- Build a classification model using the Iris dataset (Pandas + scikit-learn)
+
+**Includes practice problems**
+
+---
+
+### 🟨 Lesson 3 – Classification (2): Accuracy and improvement
+**Objective: Learn how to evaluate model accuracy and improve it**
+- Understanding accuracy and the confusion matrix
+- Why models make mistakes and how to improve them (feature engineering, more data)
+
+**Activities**
+- Draw your own handwritten numbers and classify them
+
+**Programming**
+- Classify handwritten digits using the MNIST dataset (pre-deep learning)
+
+**Includes practice problems**
+
+---
+
+### 🟧 Lesson 4 – Regression (1): What is prediction?
+**Objective: Understand the concept of regression and linear prediction**
+- The difference between regression and classification
+- Using linear regression to make future predictions
+
+**Activities**
+- Predict shoe size based on height  
+- Draw a line to predict future values
+
+**Programming**
+- Build a linear regression model: Ice cream sales × temperature
+
+**Includes practice problems**
+
+---
+
+### 🟥 Lesson 5 – Regression (2): Accuracy and applications
+**Objective: Improve prediction accuracy and learn other methods**
+- Why predictions fail (outliers, insufficient data)
+- Multivariable regression, decision tree regression
+
+**Activities**
+- Guess the average dice roll  
+- Find outliers in data
+
+**Programming**
+- Use multiple features to predict house rent (e.g., area, number of rooms)
+
+**Includes practice problems**
+
+---
+
+### 🟪 Lesson 6 – Reinforcement Learning (1): Learn through trial and error
+**Objective: Understand the structure of trial-and-error-based learning**
+- What is reinforcement learning? (actions and rewards)
+- Logic of finding a path to the goal
+- Relationship between agent, environment, and rewards
+
+**Activities**
+- Paper maze game (learn from choices and results)
+
+**Programming**
+- Simulate a maze with OpenAI Gym
+
+**Includes practice problems**
+
+---
+
+### 🟫 Lesson 7 – Reinforcement Learning (2): Learn by repeating
+**Objective: Understand continuous learning in reinforcement learning**
+- Learning curves and improvement through practice
+- Introduction to ε-greedy strategy and Q-learning
+- Connections to robotics and self-driving technology
+
+**Activities**
+- Try a modified maze with new rules
+
+**Programming**
+- Implement basic Q-learning in a maze environment
+
+**Includes practice problems**
+
+---
+
+### 🔁 Lesson 8 – Review and Reflection
+**Objective: Summarize and connect everything learned**
+- Differences and similarities among classification, regression, and reinforcement learning
+- Think about how machine learning can (or cannot) be used
+
+**Activities**
+- Workshop: “What kind of AI do you want to build?” + sharing
+
+**Includes practice problems**
+
+---
+
+### 🎓 Final Lesson – Create Your Own AI Project!
+**Objective: Apply everything you’ve learned to create a personalized project**
+
+**Example project ideas**
+- Fruit classification app  
+- Predict your own test scores based on study time  
+- Build a game with a character that learns using reinforcement learning
+
+**Final Presentation**
+- Individual or team presentations + feedback session
+
+---
+
+## ✅ Notes
+- Each lesson is provided in `.ipynb` format (Jupyter Notebook)
+- Focus on Python-based implementation, visualization, and interactive activities
+- Designed for: Upper elementary to high school students
+
+---
+
+## 📁 Directory Structure
+```
+ML_lecture/
+├── README.md                # Curriculum overview
+├── materials/               # Jupyter Notebooks for each lesson
+│   ├── lesson_one.ipynb
+│   ├── lesson_two.ipynb
+│   └── ... (up to lesson 8 and final project)
+├── problem/                 # Practice problems and test scripts
+│   ├── lesson_one/
+│   │   ├── problems/        # problem_1.py ~ problem_15.py
+│   │   └── tests/           # test_problem_1.py ~ test_problem_15.py
+│   ├── lesson_two/
+│   │   └── ...
+│   ├── ... (lesson_three ~ lesson_eight)
+│   ├── other/               # Final project problems and tests
+│   └── run.py               # Script to run all tests at once
+```
+- `materials/`: Contains the Jupyter Notebooks for each lesson, including theory explanations, code demonstrations, and exercises.
+- `problem/`: Contains Python practice problems and their corresponding automated test scripts for each lesson.
+- `run.py`: Utility script to easily run all test cases.
