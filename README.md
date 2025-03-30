@@ -1,20 +1,27 @@
-# 🇯🇵 日本語版
+# 説明言語
+- [🇯🇵 日本語版](#japanese)
+- [🇺🇸 English Version](#English)
+
+---
+---
+
+# <a name="japanese"></a>🇯🇵 日本語版
 # 📘 Python機械学習（教材）
 ## 🔖 教材の構成
 ## 📚 目次
-- [🟦 第1回 – 機械学習とは？](#第1回--機械学習とは)
-- [🟩 第2回 – 分類学習（1）：分類とは？](#第2回--分類学習1分類とは)
-- [🟨 第3回 – 分類学習（2）：精度と改善](#第3回--分類学習2精度と改善)
-- [🟧 第4回 – 回帰学習（1）：予測って何？](#第4回--回帰学習1予測って何)
-- [🟥 第5回 – 回帰学習（2）：精度と応用](#第5回--回帰学習2精度と応用)
-- [🟪 第6回 – 強化学習（1）：試して覚える](#第6回--強化学習1試して覚える)
-- [🟫 第7回 – 強化学習（2）：上達するAI](#第7回--強化学習2上達するai)
-- [🔁 第8回 – 振り返りとまとめ](#第8回--振り返りとまとめ)
-- [🎓 最終回 – 作品づくり：自分のAIをつくろう！](#最終回--作品づくり自分のaiをつくろう)
-- [✅ 備考](#-備考)
-- [📁 ファイル構成](#-ファイル構成)
+- [🟦 第1回 – 機械学習とは？](#lesson1)
+- [🟩 第2回 – 分類学習（1）：分類とは？](#lesson2)
+- [🟨 第3回 – 分類学習（2）：精度と改善](#lesson3)
+- [🟧 第4回 – 回帰学習（1）：予測って何？](#lesson4)
+- [🟥 第5回 – 回帰学習（2）：精度と応用](#lesson5)
+- [🟪 第6回 – 強化学習（1）：試して覚える](#lesson6)
+- [🟫 第7回 – 強化学習（2）：上達するAI](#lesson7)
+- [🔁 第8回 – 振り返りとまとめ](#lesson8)
+- [🎓 最終回 – 作品づくり：自分のAIをつくろう！](#lesson_final)
+- [✅ 備考](#備考)
+- [📁 ファイル構成](#ファイル構成)
 
-### 🟦 第1回 – 機械学習とは？
+### <a name="lesson1"></a>🟦 第1回 – 機械学習とは？
 **目的：機械学習の全体像を知る**
 - 機械学習ってなに？どんなことができるの？
 - 人とコンピュータの違い、なぜ学習が必要？
@@ -35,7 +42,7 @@
 
 ---
 
-### 🟩 第2回 – 分類学習（1）：分類とは？
+### <a name="lesson2"></a>🟩 第2回 – 分類学習（1）：分類とは？
 **目的：分類の考え方と基礎的な流れを学ぶ**
 - 特徴量（色、形、大きさ）とは？
 - データセットの概念（あやめの花、犬と猫）
@@ -52,7 +59,7 @@
 
 ---
 
-### 🟨 第3回 – 分類学習（2）：精度と改善
+### <a name="lesson3"></a>🟨 第3回 – 分類学習（2）：精度と改善
 **目的：分類モデルの精度と改善を学ぶ**
 - 正解率と混同行列の理解
 - モデルが間違える理由と改善方法（特徴量／データ量）
@@ -67,7 +74,7 @@
 
 ---
 
-### 🟧 第4回 – 回帰学習（1）：予測って何？
+### <a name="lesson4"></a>🟧 第4回 – 回帰学習（1）：予測って何？
 **目的：回帰の概念と線形予測を理解する**
 - 回帰と分類の違い
 - 線形回帰と「未来を当てる」考え方
@@ -83,7 +90,7 @@
 
 ---
 
-### 🟥 第5回 – 回帰学習（2）：精度と応用
+### <a name="lesson5"></a>🟥 第5回 – 回帰学習（2）：精度と応用
 **目的：精度向上の方法と他の手法の紹介**
 - 外れ値、多変量回帰、決定木回帰など
 
@@ -98,7 +105,7 @@
 
 ---
 
-### 🟪 第6回 – 強化学習（1）：試して覚える
+### <a name="lesson6"></a>🟪 第6回 – 強化学習（1）：試して覚える
 **目的：試行錯誤型学習の仕組みを知る**
 - エージェント／環境／報酬
 - ゴールへ向かう行動の最適化
@@ -113,7 +120,7 @@
 
 ---
 
-### 🟫 第7回 – 強化学習（2）：上達するAI
+### <a name="lesson7"></a>🟫 第7回 – 強化学習（2）：上達するAI
 **目的：繰り返し学習とQ学習の入門**
 - ε-greedy法・Q学習の基本
 - 実社会での応用（ロボット、自動運転）
@@ -128,7 +135,7 @@
 
 ---
 
-### 🔁 第8回 – 振り返りとまとめ
+### <a name="lesson8"></a>🔁 第8回 – 振り返りとまとめ
 **目的：これまでの学びをつなげる**
 - 分類／回帰／強化学習の違いと活用法
 - AIを使ってできること・できないことを考える
@@ -140,7 +147,7 @@
 
 ---
 
-### 🎓 最終回 – 作品づくり：自分のAIをつくろう！
+### <a name="lesson_final"></a>🎓 最終回 – 作品づくり：自分のAIをつくろう！
 **目的：学んだ技術を応用し、自分の作品を作る**
 
 **自由課題例**
@@ -153,13 +160,13 @@
 
 ---
 
-## ✅ 備考
+## <a name="備考"></a>✅ 備考
 - 各回の教材は `.ipynb`（Jupyter Notebook）形式で提供
 - Pythonによる実装中心、図解と体験を重視
 - 対象：小学生（高学年）〜高校生
 
 
-## 📁 ファイル構成
+## <a name="ファイル構成"></a>📁 ファイル構成
 ```
 ML_lecture/
 ├── README.md                 # 教材の概要と構成（このファイル）
@@ -182,24 +189,24 @@ ML_lecture/
 - `run.py` は補助的なスクリプトで、テストの一括実行などに使用します。
 
 ---
-# 🇺🇸 English Version
+# <a name="English"></a>🇺🇸 English Version
 # 📘 Python Machine Learning (Educational Materials)
 
 ## 🔖 Lesson Structure
 ## 📚 Table of Contents
-- [🟦 Lesson 1 – What is Machine Learning?](#lesson-1--what-is-machine-learning)
-- [🟩 Lesson 2 – Classification (1): What is classification?](#lesson-2--classification-1-what-is-classification)
-- [🟨 Lesson 3 – Classification (2): Accuracy and improvement](#lesson-3--classification-2-accuracy-and-improvement)
-- [🟧 Lesson 4 – Regression (1): What is prediction?](#lesson-4--regression-1-what-is-prediction)
-- [🟥 Lesson 5 – Regression (2): Accuracy and applications](#lesson-5--regression-2-accuracy-and-applications)
-- [🟪 Lesson 6 – Reinforcement Learning (1): Learn through trial and error](#lesson-6--reinforcement-learning-1-learn-through-trial-and-error)
-- [🟫 Lesson 7 – Reinforcement Learning (2): Learn by repeating](#lesson-7--reinforcement-learning-2-learn-by-repeating)
-- [🔁 Lesson 8 – Review and Reflection](#lesson-8--review-and-reflection)
-- [🎓 Final Lesson – Create Your Own AI Project!](#final-lesson--create-your-own-ai-project)
-- [✅ Notes](#-notes)
-- [📁 Directory Structure](#-directory-structure)
+- [🟦 Lesson 1 – What is Machine Learning?](#lesson1_en)
+- [🟩 Lesson 2 – Classification (1): What is classification?](#lesson2_en)
+- [🟨 Lesson 3 – Classification (2): Accuracy and improvement](#lesson3_en)
+- [🟧 Lesson 4 – Regression (1): What is prediction?](#lesson4_en)
+- [🟥 Lesson 5 – Regression (2): Accuracy and applications](#lesson5_en)
+- [🟪 Lesson 6 – Reinforcement Learning (1): Learn through trial and error](#lesson6_en)
+- [🟫 Lesson 7 – Reinforcement Learning (2): Learn by repeating](#lesson7_en)
+- [🔁 Lesson 8 – Review and Reflection](#lesson8_en)
+- [🎓 Final Lesson – Create Your Own AI Project!](#lesson_final_en)
+- [✅ Notes](#Notes)
+- [📁 Directory Structure](#Directory_Structure)
 
-### 🟦 Lesson 1 – What is Machine Learning?
+### <a name="lesson1_en"></a>🟦 Lesson 1 – What is Machine Learning?
 **Objective: Understand the overall concept of machine learning**
 - What is machine learning? What can it do?
 - Differences between humans and computers, and why learning is necessary
@@ -220,7 +227,7 @@ ML_lecture/
 
 ---
 
-### 🟩 Lesson 2 – Classification (1): What is classification?
+### <a name="lesson2_en"></a>🟩 Lesson 2 – Classification (1): What is classification?
 **Objective: Learn the concept of classification and its basic process**
 - What are features? (color, shape, size)
 - What is a dataset? (e.g., iris flowers, dogs and cats)
@@ -237,7 +244,7 @@ ML_lecture/
 
 ---
 
-### 🟨 Lesson 3 – Classification (2): Accuracy and improvement
+### <a name="lesson3_en"></a>🟨 Lesson 3 – Classification (2): Accuracy and improvement
 **Objective: Learn how to evaluate model accuracy and improve it**
 - Understanding accuracy and the confusion matrix
 - Why models make mistakes and how to improve them (feature engineering, more data)
@@ -252,7 +259,7 @@ ML_lecture/
 
 ---
 
-### 🟧 Lesson 4 – Regression (1): What is prediction?
+### <a name="lesson4_en"></a>🟧 Lesson 4 – Regression (1): What is prediction?
 **Objective: Understand the concept of regression and linear prediction**
 - The difference between regression and classification
 - Using linear regression to make future predictions
@@ -268,7 +275,7 @@ ML_lecture/
 
 ---
 
-### 🟥 Lesson 5 – Regression (2): Accuracy and applications
+### <a name="lesson5_en"></a>🟥 Lesson 5 – Regression (2): Accuracy and applications
 **Objective: Improve prediction accuracy and learn other methods**
 - Why predictions fail (outliers, insufficient data)
 - Multivariable regression, decision tree regression
@@ -284,7 +291,7 @@ ML_lecture/
 
 ---
 
-### 🟪 Lesson 6 – Reinforcement Learning (1): Learn through trial and error
+### <a name="lesson6_en"></a>🟪 Lesson 6 – Reinforcement Learning (1): Learn through trial and error
 **Objective: Understand the structure of trial-and-error-based learning**
 - What is reinforcement learning? (actions and rewards)
 - Logic of finding a path to the goal
@@ -300,7 +307,7 @@ ML_lecture/
 
 ---
 
-### 🟫 Lesson 7 – Reinforcement Learning (2): Learn by repeating
+### <a name="lesson7_en"></a>🟫 Lesson 7 – Reinforcement Learning (2): Learn by repeating
 **Objective: Understand continuous learning in reinforcement learning**
 - Learning curves and improvement through practice
 - Introduction to ε-greedy strategy and Q-learning
@@ -316,7 +323,7 @@ ML_lecture/
 
 ---
 
-### 🔁 Lesson 8 – Review and Reflection
+### <a name="lesson8_en"></a>🔁 Lesson 8 – Review and Reflection
 **Objective: Summarize and connect everything learned**
 - Differences and similarities among classification, regression, and reinforcement learning
 - Think about how machine learning can (or cannot) be used
@@ -328,7 +335,7 @@ ML_lecture/
 
 ---
 
-### 🎓 Final Lesson – Create Your Own AI Project!
+### <a name="lesson_final_en"></a>🎓 Final Lesson – Create Your Own AI Project!
 **Objective: Apply everything you’ve learned to create a personalized project**
 
 **Example project ideas**
@@ -341,14 +348,14 @@ ML_lecture/
 
 ---
 
-## ✅ Notes
+## <a name="Notes"></a>✅ Notes
 - Each lesson is provided in `.ipynb` format (Jupyter Notebook)
 - Focus on Python-based implementation, visualization, and interactive activities
 - Designed for: Upper elementary to high school students
 
 ---
 
-## 📁 Directory Structure
+## <a name="Directory_Structure"></a>📁 Directory Structure
 ```
 ML_lecture/
 ├── README.md                # Curriculum overview
