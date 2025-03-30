@@ -1,12 +1,11 @@
-# 説明言語
+## 🈯 説明言語 / Language Selection
 - [🇯🇵 日本語版](#japanese)
 - [🇺🇸 English Version](#English)
-
----
 ---
 
 # <a name="japanese"></a>🇯🇵 日本語版
 # 📘 Python機械学習（教材）
+この教材は、小学生高学年〜高校生を対象に、Pythonを使って楽しく機械学習を学ぶことを目的とした体験型教材です。Jupyter Notebook形式で提供され、分類・回帰・強化学習を順に学び、最後は自分だけのAI作品を作ることができます。
 ## 🔖 教材の構成
 ## 📚 目次
 - [🟦 第1回 – 機械学習とは？](#lesson1)
@@ -191,6 +190,7 @@ ML_lecture/
 ---
 # <a name="English"></a>🇺🇸 English Version
 # 📘 Python Machine Learning (Educational Materials)
+This educational material is an interactive curriculum designed for upper elementary to high school students to enjoy learning machine learning using Python. Provided in Jupyter Notebook format, it covers classification, regression, and reinforcement learning step by step, culminating in the creation of a personalized AI project.
 
 ## 🔖 Lesson Structure
 ## 📚 Table of Contents
